@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./side-bar.component.scss']
 })
 export class SideBarComponent implements OnInit {
+currentUrl: string;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor() {
+    
   }
 
+  ngOnInit() {}
+
+
 }
+
+

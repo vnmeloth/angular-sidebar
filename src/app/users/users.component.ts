@@ -16,9 +16,10 @@ import {
 export class UsersComponent implements OnInit {
   users$: Object;
   showLoadingIndicator: boolean = true;
-  constructor(private data: DataService, private _router: Router) {}
+  constructor(private data: DataService) {}
 
   ngOnInit() {
+    //, private _router: Router
     // this._router.events.subscribe((routerEvent: Event) => {
     //   if (routerEvent instanceof NavigationStart) {
     //     this.showLoadingIndicator=true;
