@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
