@@ -12,7 +12,7 @@ import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, SideBarComponent, UsersComponent, DetailsComponent, PostsComponent ],
+  declarations: [ AppComponent,  SideBarComponent, UsersComponent, DetailsComponent, PostsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
